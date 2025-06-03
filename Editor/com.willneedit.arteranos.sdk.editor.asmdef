@@ -1,0 +1,16 @@
+{
+    "name": "com.willneedit.arteranos.sdk.editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:43f91b12f539cb2178923f537c85b5cb"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

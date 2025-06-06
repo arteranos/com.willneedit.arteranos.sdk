@@ -2,7 +2,10 @@
     "name": "com.willneedit.arteranos.sdk.editor",
     "rootNamespace": "",
     "references": [
-        "GUID:43f91b12f539cb2178923f537c85b5cb"
+        "GUID:43f91b12f539cb2178923f537c85b5cb",
+        "GUID:478a2357cc57436488a56e564b08d223",
+        "GUID:802596836aa83094ea9d1166a80d7e4e",
+        "GUID:73cd762c1d4bdaf4891d2710c1f58ae2"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

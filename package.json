@@ -26,7 +26,9 @@
     }
   ],
   "dependencies": {
-    "com.willneedit.arteranos.common": "1.0.0"
+    "com.willneedit.arteranos.common": "1.0.0",
+    "com.unity.editorcoroutines": "1.0.0",
+    "li.lightingtools.lightmapswitcher": "2.1.0"
   },
   "author": "willneedit",
   "license": "MPL-2.0"

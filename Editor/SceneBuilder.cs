@@ -26,7 +26,7 @@ namespace Arteranos.Editor
     public class SceneBuilderGUI : EditorWindow
     {
         public static WorldMetaData Metadata = null;
-        public static UserIDJSON UserID = null;
+        public static UserDataJSON UserID = null;
         public static ServerPermissions Permissions = null;
 
         public string targetFile = string.Empty;
@@ -40,7 +40,7 @@ namespace Arteranos.Editor
         [MenuItem("Arteranos/Worlds/Build scene as world...", false, 10)]
         public static void ShowScenebuilderGUI()
         {
-            UserID = UserIDJSON.Load();
+            UserID = UserDataJSON.Load();
             Permissions = ServerPermissions.Load();
 
             Metadata = WorldMetaData.LoadDefaults();

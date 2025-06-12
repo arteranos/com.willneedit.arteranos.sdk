@@ -25,7 +25,7 @@ namespace Arteranos.SDK.Editor
     public class KitBuilderGUI : EditorWindow
     {
         public static KitMetaData metadata = null;
-        public static UserIDJSON client = null;
+        public static UserDataJSON client = null;
 
 
         private GameObject[] gameObjects = null;
@@ -34,7 +34,7 @@ namespace Arteranos.SDK.Editor
 
         public static void ShowGUI(GameObject[] gameObjects)
         {
-            client ??= UserIDJSON.Load();
+            client ??= UserDataJSON.Load();
             metadata ??= new() { AuthorID = client };
 
             KitBuilderGUI gui = GetWindow<KitBuilderGUI>();

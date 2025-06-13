@@ -27,7 +27,7 @@ namespace Arteranos.Editor
     {
         public static WorldMetaData Metadata = null;
         public static UserDataJSON UserID = null;
-        public static ServerPermissions Permissions = null;
+        public static PermissionsJSON Permissions = null;
 
         public string targetFile = string.Empty;
         public string screenshotFile = string.Empty;
@@ -41,7 +41,7 @@ namespace Arteranos.Editor
         public static void ShowScenebuilderGUI()
         {
             UserID = UserDataJSON.Load();
-            Permissions = ServerPermissions.Load();
+            Permissions = PermissionsJSON.Load();
 
             Metadata = WorldMetaData.LoadDefaults();
 
